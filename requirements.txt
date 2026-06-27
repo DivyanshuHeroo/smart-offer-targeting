@@ -1,0 +1,10 @@
+# Smart Offer Targeting System — dependencies
+# Tested with Python 3.11–3.13. Lower bounds are what the project was built/tested on.
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+lightgbm>=4.0
+matplotlib>=3.7
+joblib>=1.3
+streamlit>=1.30

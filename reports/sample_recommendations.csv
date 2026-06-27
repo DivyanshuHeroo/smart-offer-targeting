@@ -1,0 +1,151 @@
+customer_id,rank,offer_id,offer_type,offer_label,click_probability,expected_value,recommendation_reason
+0009655768c64bdeb2e877511632db8f,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9720963,3.7383852,reachable on mobile/social; recently active spender
+0009655768c64bdeb2e877511632db8f,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.97132045,3.7352817,reachable on mobile/social; recently active spender
+0009655768c64bdeb2e877511632db8f,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9690577,3.7262306,history of engaging with bogo offers; strong reward-to-spend ratio
+00116118485d4dfda04fdbaba9a87b5c,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9665417,3.7161667,reachable on mobile/social
+00116118485d4dfda04fdbaba9a87b5c,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.96560925,3.712437,reachable on mobile/social
+00116118485d4dfda04fdbaba9a87b5c,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9632084,3.7028334,history of engaging with bogo offers; strong reward-to-spend ratio
+0011e0d4e6b944f998e987f904e8c1e5,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9899183,3.809673,reachable on mobile/social
+0011e0d4e6b944f998e987f904e8c1e5,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.98808634,3.8023453,reachable on mobile/social
+0011e0d4e6b944f998e987f904e8c1e5,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9843477,3.7873907,history of engaging with bogo offers; strong reward-to-spend ratio
+0020c2b971eb4e9188eac86d93036a77,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.86652976,3.316119,reachable on mobile/social
+0020c2b971eb4e9188eac86d93036a77,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.86091626,3.293665,reachable on mobile/social
+0020c2b971eb4e9188eac86d93036a77,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.8472573,3.2390292,strong reward-to-spend ratio; reachable on mobile/social
+0020ccbbb6d84e358d3414a3ff76cffd,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.97470945,3.7488377,reachable on mobile/social; recently active spender
+0020ccbbb6d84e358d3414a3ff76cffd,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.97405154,3.746206,reachable on mobile/social; recently active spender
+0020ccbbb6d84e358d3414a3ff76cffd,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9684324,3.7237296,history of engaging with bogo offers; strong reward-to-spend ratio
+003d66b6608740288d6cc97a6903f4f0,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.966594,3.7163758,reachable on mobile/social; recently active spender
+003d66b6608740288d6cc97a6903f4f0,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9660682,3.7142727,reachable on mobile/social; recently active spender
+003d66b6608740288d6cc97a6903f4f0,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9653293,3.711317,strong reward-to-spend ratio; reachable on mobile/social
+00426fe3ffde4c6b9cb9ad6d077a13ea,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.96575737,3.7130294,reachable on mobile/social
+00426fe3ffde4c6b9cb9ad6d077a13ea,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9640209,3.7060835,strong reward-to-spend ratio; reachable on mobile/social
+00426fe3ffde4c6b9cb9ad6d077a13ea,3,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9633313,3.703325,reachable on mobile/social
+004b041fbfe44859945daa2c7f79ee64,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9426948,3.620779,reachable on mobile/social; recently active spender
+004b041fbfe44859945daa2c7f79ee64,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.93528295,3.5911317,reachable on mobile/social; recently active spender
+004b041fbfe44859945daa2c7f79ee64,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.93220955,3.578838,history of engaging with bogo offers; strong reward-to-spend ratio
+004c5799adbf42868b9cff0396190900,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.96165866,3.6966345,history of engaging with discount offers; reachable on mobile/social
+004c5799adbf42868b9cff0396190900,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9536149,3.6644595,history of engaging with discount offers; reachable on mobile/social
+004c5799adbf42868b9cff0396190900,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9457574,3.6330295,strong reward-to-spend ratio; reachable on mobile/social
+005500a7188546ff8a767329a2f7c76a,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.95534104,3.671364,reachable on mobile/social
+005500a7188546ff8a767329a2f7c76a,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.95088905,3.653556,history of engaging with bogo offers; strong reward-to-spend ratio
+005500a7188546ff8a767329a2f7c76a,3,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.94304526,3.622181,reachable on mobile/social
+0056df74b63b4298809f0b375a304cf4,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.96930236,3.7272093,reachable on mobile/social; recently active spender
+0056df74b63b4298809f0b375a304cf4,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9632979,3.7031915,reachable on mobile/social; recently active spender
+0056df74b63b4298809f0b375a304cf4,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.959727,3.6889079,history of engaging with bogo offers; strong reward-to-spend ratio
+0063def0f9c14bc4805322a488839b32,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9717515,3.737006,reachable on mobile/social
+0063def0f9c14bc4805322a488839b32,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.96920705,3.726828,reachable on mobile/social
+0063def0f9c14bc4805322a488839b32,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9596207,3.6884828,history of engaging with bogo offers; strong reward-to-spend ratio
+0069a50874d846438e58acff5e594725,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9608925,3.69357,reachable on mobile/social
+0069a50874d846438e58acff5e594725,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9585207,3.6840827,reachable on mobile/social
+0069a50874d846438e58acff5e594725,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.95105493,3.6542196,strong reward-to-spend ratio; reachable on mobile/social
+00715b6e55c3431cb56ff7307eb19675,1,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.97014767,3.7305906,strong reward-to-spend ratio; reachable on mobile/social
+00715b6e55c3431cb56ff7307eb19675,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.96858907,3.7243562,strong reward-to-spend ratio; reachable on mobile/social
+00715b6e55c3431cb56ff7307eb19675,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9621199,3.6984794,history of engaging with discount offers; reachable on mobile/social
+0082fd87c18f45f2be70dbcbb0fb8aad,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.98057693,3.7723076,reachable on mobile/social; recently active spender
+0082fd87c18f45f2be70dbcbb0fb8aad,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.97755104,3.760204,reachable on mobile/social; recently active spender
+0082fd87c18f45f2be70dbcbb0fb8aad,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.97549057,3.7519622,strong reward-to-spend ratio; reachable on mobile/social
+00840a2ca5d2408e982d56544dc14ffd,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.96586955,3.713478,reachable on mobile/social; recently active spender
+00840a2ca5d2408e982d56544dc14ffd,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9630747,3.7022986,reachable on mobile/social; recently active spender
+00840a2ca5d2408e982d56544dc14ffd,3,ae264e3637204a6fb9bb56bc8210ddfd,bogo,Bogo | reward 10 / spend 10 / 7d,0.95691806,3.6776721,strong reward-to-spend ratio; reachable on mobile/social
+00857b24b13f4fe0ad17b605f00357f5,1,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.962354,3.699416,history of engaging with bogo offers; strong reward-to-spend ratio
+00857b24b13f4fe0ad17b605f00357f5,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9618826,3.6975303,reachable on mobile/social; recently active spender
+00857b24b13f4fe0ad17b605f00357f5,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9602492,3.6909966,reachable on mobile/social; recently active spender
+008d7088107b468893889da0ede0df5c,1,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.98059535,3.7723813,history of engaging with bogo offers; strong reward-to-spend ratio
+008d7088107b468893889da0ede0df5c,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.97961926,3.768477,reachable on mobile/social
+008d7088107b468893889da0ede0df5c,3,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9791443,3.766577,reachable on mobile/social
+0091d2b6a5ea4defaa8393e4e816db60,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9839331,3.7857323,reachable on mobile/social; recently active spender
+0091d2b6a5ea4defaa8393e4e816db60,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.98160166,3.7764065,history of engaging with bogo offers; strong reward-to-spend ratio
+0091d2b6a5ea4defaa8393e4e816db60,3,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.98071885,3.7728753,reachable on mobile/social; recently active spender
+0092a132ead946ceb30d11a1ed513d20,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9899912,3.8099647,reachable on mobile/social; recently active spender
+0092a132ead946ceb30d11a1ed513d20,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.988634,3.8045359,reachable on mobile/social; recently active spender
+0092a132ead946ceb30d11a1ed513d20,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.98857504,3.8043,history of engaging with bogo offers; strong reward-to-spend ratio
+0099bf30e4cb4265875266eb3eb25eab,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9793299,3.7673194,reachable on mobile/social
+0099bf30e4cb4265875266eb3eb25eab,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.97824186,3.7629673,history of engaging with bogo offers; strong reward-to-spend ratio
+0099bf30e4cb4265875266eb3eb25eab,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.97778136,3.7611253,reachable on mobile/social
+009d10c2c38a4fd795a7bc6ddbbddb78,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9731488,3.7425952,reachable on mobile/social
+009d10c2c38a4fd795a7bc6ddbbddb78,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9697796,3.7291183,reachable on mobile/social
+009d10c2c38a4fd795a7bc6ddbbddb78,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.966165,3.71466,history of engaging with bogo offers; strong reward-to-spend ratio
+00a794f62b9a48beb58f8f6c02c2f1a6,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9869326,3.7977302,reachable on mobile/social
+00a794f62b9a48beb58f8f6c02c2f1a6,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9846576,3.7886302,reachable on mobile/social
+00a794f62b9a48beb58f8f6c02c2f1a6,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.98410404,3.786416,history of engaging with bogo offers; strong reward-to-spend ratio
+00ad4c2cace94f67a6354ec90d6c6f45,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.97748715,3.7599485,reachable on mobile/social; recently active spender
+00ad4c2cace94f67a6354ec90d6c6f45,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.97734535,3.7593813,reachable on mobile/social; recently active spender
+00ad4c2cace94f67a6354ec90d6c6f45,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.97051215,3.7320485,history of engaging with bogo offers; strong reward-to-spend ratio
+00ae03011f9f49b8a4b3e6d416678b0b,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9888765,3.805506,reachable on mobile/social
+00ae03011f9f49b8a4b3e6d416678b0b,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9888237,3.8052948,reachable on mobile/social
+00ae03011f9f49b8a4b3e6d416678b0b,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.98851377,3.804055,history of engaging with bogo offers; strong reward-to-spend ratio
+00aee28bbb3848dd8a31f0c91dc267dd,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9393882,3.6075528,reachable on mobile/social; recently active spender
+00aee28bbb3848dd8a31f0c91dc267dd,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9378301,3.6013203,reachable on mobile/social; recently active spender
+00aee28bbb3848dd8a31f0c91dc267dd,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9303557,3.5714228,history of engaging with bogo offers; strong reward-to-spend ratio
+00b18b535d6d4f779dea4dc9ac451478,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9659466,3.7137864,reachable on mobile/social
+00b18b535d6d4f779dea4dc9ac451478,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9588155,3.685262,history of engaging with bogo offers; strong reward-to-spend ratio
+00b18b535d6d4f779dea4dc9ac451478,3,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9548246,3.6692984,reachable on mobile/social
+00b3400e4ff64ee68ce9ada1d0c222f0,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9631873,3.702749,reachable on mobile/social; recently active spender
+00b3400e4ff64ee68ce9ada1d0c222f0,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.95703083,3.6781232,reachable on mobile/social; recently active spender
+00b3400e4ff64ee68ce9ada1d0c222f0,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.951131,3.6545238,strong reward-to-spend ratio; reachable on mobile/social
+00b3c376db2a4115af3aef34a02f61d6,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9403527,3.6114106,reachable on mobile/social
+00b3c376db2a4115af3aef34a02f61d6,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.91615266,3.5146105,reachable on mobile/social
+00b3c376db2a4115af3aef34a02f61d6,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9145362,3.5081446,history of engaging with bogo offers; strong reward-to-spend ratio
+00b5fb9d842d437e83033ad9e36f7148,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.97373724,3.7449489,reachable on mobile/social
+00b5fb9d842d437e83033ad9e36f7148,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.97263134,3.7405252,reachable on mobile/social
+00b5fb9d842d437e83033ad9e36f7148,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9657619,3.7130475,history of engaging with bogo offers; strong reward-to-spend ratio
+00b901d68f8f4fd68075184cd0f772d2,1,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9680241,3.7220962,history of engaging with bogo offers; strong reward-to-spend ratio
+00b901d68f8f4fd68075184cd0f772d2,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9609459,3.6937835,reachable on mobile/social; recently active spender
+00b901d68f8f4fd68075184cd0f772d2,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.95813656,3.6825461,reachable on mobile/social; recently active spender
+00bbce6533f44ddeaf4dd32bcab55441,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9530544,3.6622176,reachable on mobile/social
+00bbce6533f44ddeaf4dd32bcab55441,2,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9446492,3.6285968,history of engaging with bogo offers; strong reward-to-spend ratio
+00bbce6533f44ddeaf4dd32bcab55441,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9381791,3.6027162,reachable on mobile/social
+00bc42a62f884b41a13cc595856cf7c3,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9838531,3.7854123,reachable on mobile/social; recently active spender
+00bc42a62f884b41a13cc595856cf7c3,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9832041,3.7828164,history of engaging with bogo offers; strong reward-to-spend ratio
+00bc42a62f884b41a13cc595856cf7c3,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9828706,3.7814822,reachable on mobile/social; recently active spender
+00bc983061d3471e8c8e74d31b7c8b6f,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.96386635,3.7054653,reachable on mobile/social
+00bc983061d3471e8c8e74d31b7c8b6f,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.95986557,3.6894622,reachable on mobile/social
+00bc983061d3471e8c8e74d31b7c8b6f,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9544233,3.6676931,strong reward-to-spend ratio; reachable on mobile/social
+00c20a9202d5475190b31a24de6fb06d,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.984388,3.7875519,reachable on mobile/social
+00c20a9202d5475190b31a24de6fb06d,2,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9824504,3.7798016,history of engaging with bogo offers; strong reward-to-spend ratio
+00c20a9202d5475190b31a24de6fb06d,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9798233,3.769293,reachable on mobile/social
+00c2f812f4604c8893152a5c6572030e,1,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9647446,3.7089784,history of engaging with bogo offers; strong reward-to-spend ratio
+00c2f812f4604c8893152a5c6572030e,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.94797564,3.6419024,history of engaging with bogo offers; strong reward-to-spend ratio
+00c2f812f4604c8893152a5c6572030e,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9454324,3.6317296,reachable on mobile/social
+00c32a104f0c4065b5b552895fb22e34,1,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.93205345,3.5782137,history of engaging with bogo offers; strong reward-to-spend ratio
+00c32a104f0c4065b5b552895fb22e34,2,ae264e3637204a6fb9bb56bc8210ddfd,bogo,Bogo | reward 10 / spend 10 / 7d,0.92897284,3.5658913,history of engaging with bogo offers; strong reward-to-spend ratio
+00c32a104f0c4065b5b552895fb22e34,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.92794275,3.561771,reachable on mobile/social; recently active spender
+00c5a385c71a4d3db5e9b4e31e430943,1,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.982553,3.780212,history of engaging with bogo offers; strong reward-to-spend ratio
+00c5a385c71a4d3db5e9b4e31e430943,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.979936,3.769744,history of engaging with bogo offers; strong reward-to-spend ratio
+00c5a385c71a4d3db5e9b4e31e430943,3,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9761044,3.7544174,reachable on mobile/social; recently active spender
+00c6035df45840038a72766c6d27a0db,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9907438,3.8129752,reachable on mobile/social; recently active spender
+00c6035df45840038a72766c6d27a0db,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9895034,3.8080134,reachable on mobile/social; recently active spender
+00c6035df45840038a72766c6d27a0db,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9884697,3.8038788,history of engaging with bogo offers; strong reward-to-spend ratio
+00c91f31f5f74e769fa7a359b63e1a9f,1,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9597983,3.689193,strong reward-to-spend ratio; reachable on mobile/social
+00c91f31f5f74e769fa7a359b63e1a9f,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9587671,3.6850684,history of engaging with discount offers; reachable on mobile/social
+00c91f31f5f74e769fa7a359b63e1a9f,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.95821345,3.6828537,strong reward-to-spend ratio; reachable on mobile/social
+00ceaf16a40341e6996d543d04daa2c2,1,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9505652,3.6522608,history of engaging with bogo offers; strong reward-to-spend ratio
+00ceaf16a40341e6996d543d04daa2c2,2,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9473705,3.639482,history of engaging with bogo offers; strong reward-to-spend ratio
+00ceaf16a40341e6996d543d04daa2c2,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.94637537,3.6355014,reachable on mobile/social
+00cf1bbec83f4a658f8994e556db4633,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.96901447,3.7260578,history of engaging with discount offers; reachable on mobile/social
+00cf1bbec83f4a658f8994e556db4633,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.96543413,3.7117364,history of engaging with discount offers; reachable on mobile/social
+00cf1bbec83f4a658f8994e556db4633,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.95988494,3.6895397,strong reward-to-spend ratio; reachable on mobile/social
+00cf471ed1aa42a8bdde5561d67da2b1,1,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.94803727,3.642149,history of engaging with bogo offers; strong reward-to-spend ratio
+00cf471ed1aa42a8bdde5561d67da2b1,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9465579,3.6362314,reachable on mobile/social; recently active spender
+00cf471ed1aa42a8bdde5561d67da2b1,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.94528675,3.631147,reachable on mobile/social; recently active spender
+00d6dc87be4146ceb47fcd4baaaf6477,1,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.97055864,3.7322345,history of engaging with bogo offers; strong reward-to-spend ratio
+00d6dc87be4146ceb47fcd4baaaf6477,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.96365976,3.704639,reachable on mobile/social; recently active spender
+00d6dc87be4146ceb47fcd4baaaf6477,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9636022,3.7044086,history of engaging with bogo offers; strong reward-to-spend ratio
+00d791e20c564add8056498e40eb56cc,1,ae264e3637204a6fb9bb56bc8210ddfd,bogo,Bogo | reward 10 / spend 10 / 7d,0.96366054,3.704642,history of engaging with bogo offers; strong reward-to-spend ratio
+00d791e20c564add8056498e40eb56cc,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.96265846,3.7006338,reachable on mobile/social; recently active spender
+00d791e20c564add8056498e40eb56cc,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9604753,3.6919012,history of engaging with bogo offers; strong reward-to-spend ratio
+00d7c95f793a4212af44e632fdc1e431,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.9594247,3.6876986,reachable on mobile/social; recently active spender
+00d7c95f793a4212af44e632fdc1e431,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9586676,3.6846702,reachable on mobile/social; recently active spender
+00d7c95f793a4212af44e632fdc1e431,3,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.95423836,3.6669533,history of engaging with bogo offers; strong reward-to-spend ratio
+00d91c5919514448bc4f718e4e3f26ab,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.99361753,3.82447,reachable on mobile/social
+00d91c5919514448bc4f718e4e3f26ab,2,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.99325705,3.823028,reachable on mobile/social
+00d91c5919514448bc4f718e4e3f26ab,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.99099827,3.813993,history of engaging with bogo offers; strong reward-to-spend ratio
+00e20b4ca129458aaab0f4727ef3513a,1,ae264e3637204a6fb9bb56bc8210ddfd,bogo,Bogo | reward 10 / spend 10 / 7d,0.9552113,3.670845,history of engaging with bogo offers; strong reward-to-spend ratio
+00e20b4ca129458aaab0f4727ef3513a,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.95294607,3.6617842,history of engaging with bogo offers; strong reward-to-spend ratio
+00e20b4ca129458aaab0f4727ef3513a,3,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.93717706,3.5987082,reachable on mobile/social; recently active spender
+00e52682848542c3a6f59b7824e9a5c5,1,2298d6c36e964ae4a3e7e9706d1fb8c2,discount,Discount | reward 3 / spend 7 / 7d,0.98507303,3.790292,history of engaging with discount offers; reachable on mobile/social
+00e52682848542c3a6f59b7824e9a5c5,2,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.98415565,3.7866225,history of engaging with discount offers; reachable on mobile/social
+00e52682848542c3a6f59b7824e9a5c5,3,f19421c1d4aa40978ebb69ca19b0e20d,bogo,Bogo | reward 5 / spend 5 / 5d,0.9790694,3.7662776,strong reward-to-spend ratio; reachable on mobile/social
+00e8d701c583461e81cc10053681a12b,1,fafdcd668e3743c1bb461111dcafc2a4,discount,Discount | reward 2 / spend 10 / 10d,0.9532897,3.6631587,reachable on mobile/social; recently active spender
+00e8d701c583461e81cc10053681a12b,2,4d5c57ea9a6940dd891ad53e9dbe8da0,bogo,Bogo | reward 10 / spend 10 / 5d,0.9523081,3.6592324,history of engaging with bogo offers; strong reward-to-spend ratio
+00e8d701c583461e81cc10053681a12b,3,ae264e3637204a6fb9bb56bc8210ddfd,bogo,Bogo | reward 10 / spend 10 / 7d,0.94782686,3.6413074,history of engaging with bogo offers; strong reward-to-spend ratio
