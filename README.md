@@ -156,17 +156,39 @@ a fair before/after. Result (honest, not cherry-picked):
 | LightGBM | PR-AUC | 0.9443 | 0.9460 | **+0.0017** | marginally improved |
 | LightGBM Ranker | NDCG@3 | 0.9776 | 0.9762 | −0.0014 | ~same (slightly worse) |
 
-**Takeaway:** tuning lifts the boosters' PR-AUC by only ~0.1–0.2 points and barely
-moves ranking metrics — the **defaults were already well-chosen**, and the gradient-
-boosting models are not very sensitive to these hyperparameters on this dataset. The
-serving model is promoted to the tuned XGBoost only because it genuinely (if
-marginally) beats the default. This is the kind of result worth stating plainly in an
-interview: more compute did **not** buy a big jump, and pretending otherwise would be
-dishonest. The bigger levers here are **features** (offer-response history) and
-**model *choice*** (learning-to-rank), not hyperparameter search.
-
 Run it yourself: `python -m src.tune` → writes `reports/metrics_tuned.json` and
 `reports/best_params.json`.
+
+#### Bayesian optimisation with Optuna (`src/tune_optuna.py`)
+
+To check whether a smarter search finds more, `src/tune_optuna.py` runs **Optuna
+(TPE sampler + median pruning)** over **wider ranges** — 60 trials each for XGBoost
+and LightGBM (grouped-CV PR-AUC objective) and 50 for the Ranker (validation NDCG@3),
+with early-stopping of weak trials. Three-way comparison on the **same test set**:
+
+| Model | Metric | Default | RandomSearch | **Optuna** |
+|-------|--------|:------:|:-----------:|:----------:|
+| XGBoost | PR-AUC | 0.9449 | 0.9462 | 0.9454 |
+| LightGBM | PR-AUC | 0.9443 | 0.9460 | 0.9457 |
+| LightGBM Ranker | NDCG@3 | 0.9776 | 0.9762 | 0.9778 |
+
+![Optuna history — LightGBM](reports/figures/optuna_history_LightGBM.png)
+
+**Takeaway (the real ML lesson).** Default, random search and 160 Optuna trials all
+land within **±0.002** of each other — the model is on a **performance plateau**.
+Optuna's grouped-CV score (0.9468) matched random search's, confirming both reached
+the same optimum region rather than one getting lucky. Interestingly, Optuna *also
+recovered the Ranker* that random search had slightly degraded (NDCG@3 back to 0.978).
+
+The honest conclusion worth stating in an interview: **hyperparameter tuning — even
+Bayesian — buys essentially nothing here.** The defaults were already well-chosen and
+the boosters aren't sensitive to these knobs on this data. The real levers are
+**features** (offer-response history, category affinity) and **model *choice***
+(learning-to-rank), not hyperparameter search. Optuna's value was *confirming the
+ceiling efficiently* — which is itself a useful result.
+
+Run it yourself: `python -m src.tune_optuna` → writes `reports/metrics_optuna.json`,
+`reports/best_params_optuna.json`, and Optuna history plots in `reports/figures/`.
 
 ### Why ranking metrics matter here
 
@@ -252,7 +274,8 @@ python -m src.eda
 python -m src.train
 
 # 6. (optional) hyperparameter tuning + before/after comparison  (~3 min)
-python -m src.tune
+python -m src.tune          # RandomizedSearchCV (GroupKFold)
+python -m src.tune_optuna   # Optuna TPE + pruning (~8 min) — 3-way comparison
 
 # 7. generate sample recommendations
 python -m src.recommend
@@ -287,7 +310,8 @@ smart-offer-targeting/
 │   ├── eda.py
 │   ├── metrics.py      # ranking metrics (P@K, R@K, MAP@K, NDCG@K)
 │   ├── train.py        # 5 models + baseline, classification + ranking eval
-│   ├── tune.py         # GroupKFold hyperparameter tuning + before/after
+│   ├── tune.py         # RandomizedSearchCV (GroupKFold) tuning + before/after
+│   ├── tune_optuna.py  # Optuna (TPE + pruning) tuning + 3-way comparison
 │   └── recommend.py    # Top-K serving layer
 ├── app/
 │   └── streamlit_app.py
