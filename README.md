@@ -143,6 +143,31 @@ global ROC/PR-AUC look low — that is expected and not a defect.
   business** (MAP@3 **0.968** vs 0.929, NDCG@3 **0.978** vs 0.949), because it
   optimises *per-customer ordering* instead of global probability.
 
+### Hyperparameter tuning — did it actually help?
+
+`src/tune.py` runs **RandomizedSearchCV with GroupKFold (by customer)** for XGBoost
+and LightGBM (scored on PR-AUC), and a randomized search for the Ranker (selected by
+validation NDCG@3). Tuned models are evaluated on the **same held-out test set** for
+a fair before/after. Result (honest, not cherry-picked):
+
+| Model | Metric | Default | Tuned | Δ | Verdict |
+|-------|--------|:------:|:-----:|:--:|:------:|
+| XGBoost | PR-AUC | 0.9449 | 0.9462 | **+0.0014** | marginally improved |
+| LightGBM | PR-AUC | 0.9443 | 0.9460 | **+0.0017** | marginally improved |
+| LightGBM Ranker | NDCG@3 | 0.9776 | 0.9762 | −0.0014 | ~same (slightly worse) |
+
+**Takeaway:** tuning lifts the boosters' PR-AUC by only ~0.1–0.2 points and barely
+moves ranking metrics — the **defaults were already well-chosen**, and the gradient-
+boosting models are not very sensitive to these hyperparameters on this dataset. The
+serving model is promoted to the tuned XGBoost only because it genuinely (if
+marginally) beats the default. This is the kind of result worth stating plainly in an
+interview: more compute did **not** buy a big jump, and pretending otherwise would be
+dishonest. The bigger levers here are **features** (offer-response history) and
+**model *choice*** (learning-to-rank), not hyperparameter search.
+
+Run it yourself: `python -m src.tune` → writes `reports/metrics_tuned.json` and
+`reports/best_params.json`.
+
 ### Why ranking metrics matter here
 
 The business shows only the **top few** offers per customer, so what matters is
@@ -226,7 +251,10 @@ python -m src.eda
 # 5. train + compare all models  (~10 s)
 python -m src.train
 
-# 6. generate sample recommendations
+# 6. (optional) hyperparameter tuning + before/after comparison  (~3 min)
+python -m src.tune
+
+# 7. generate sample recommendations
 python -m src.recommend
 
 # 7. launch the dashboard
@@ -259,6 +287,7 @@ smart-offer-targeting/
 │   ├── eda.py
 │   ├── metrics.py      # ranking metrics (P@K, R@K, MAP@K, NDCG@K)
 │   ├── train.py        # 5 models + baseline, classification + ranking eval
+│   ├── tune.py         # GroupKFold hyperparameter tuning + before/after
 │   └── recommend.py    # Top-K serving layer
 ├── app/
 │   └── streamlit_app.py
